@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <div class="form-group">
+        <label for="inputText">Input Text:</label>
+        <input type="text" class="form-control" id="inputText" [(ngModel)]="inputText" [disabled]="isInputDisabled">
+      </div>
+
+      <div class="form-group">
+        <button type="button" class="btn btn-primary" id="encodeBtn" (click)="encodeText()" [disabled]="isInputDisabled">Encode Text</button>
+      </div>
+
+      <div class="form-group mt-3">
+        <label for="outputText">Output Text:</label>
+        <textarea class="form-control" id="outputText" [(ngModel)]="outputText" readonly></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="button" class="btn btn-primary" id="cancelBtn" (click)="cancelProcess()">Cancel</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
