@@ -14,7 +14,7 @@ export class AppComponent {
   public outputText: string;
 
   public isInputDisabled: boolean = false;
-  private url = 'https://localhost:32776/StringEncoder/';
+  private url = 'https://localhost:8000/StringEncoder/';
 
   constructor(private http: HttpClient) { }
 

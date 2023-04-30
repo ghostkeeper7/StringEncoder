@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  stringencoderapi:
+    image: ${DOCKER_REGISTRY-}stringencoderapi
+    build:
+      context: .
+      dockerfile: StringEncoderAPI/Dockerfile

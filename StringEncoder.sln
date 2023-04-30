@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringEncoderAPI", "StringE
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "StringEncoderUI", "StringEncoderUI\StringEncoderUI.esproj", "{4372B917-B433-4BF8-93F8-089972191423}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{515979B5-18CE-4DC6-A4F3-B4C920A59DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{4372B917-B433-4BF8-93F8-089972191423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4372B917-B433-4BF8-93F8-089972191423}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4372B917-B433-4BF8-93F8-089972191423}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{515979B5-18CE-4DC6-A4F3-B4C920A59DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515979B5-18CE-4DC6-A4F3-B4C920A59DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515979B5-18CE-4DC6-A4F3-B4C920A59DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515979B5-18CE-4DC6-A4F3-B4C920A59DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
